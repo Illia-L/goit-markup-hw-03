@@ -24,25 +24,30 @@ button {
 
 .logo {
   font-family: 'Railway', sans-serif;
-  line-height: 1.166;
+  line-height: 1.17;
   font-size: 18px;
   font-weight: 700;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5 ;
 }
 
-.logo-web {
-  color: #4d5ae5;
+.logo-studio {
+  color: #2e2f42 ;
 }
 
 .nav-link {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 500;
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .address-link:hover,
@@ -59,12 +64,12 @@ button {
   text-align: center;
   line-height: 1.071;
   font-size: 56px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 700;
 }
 
 .hero-btn {
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   font-weight: 500;
   background-color: #4d5ae5;
 }
@@ -76,19 +81,30 @@ button {
 }
 
 .section-title {
-  line-height: 1.2;
-  font-size: 20px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   font-weight: 500;
+  text-align: center;
   color: #2e2f42;
 }
 
+.section-subtitle {
+  line-height: 1.2;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  text-align: center;
+  color: #2E2F42;
+}
+
 .section-text {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .team-title,
@@ -97,13 +113,13 @@ button {
 }
 
 .footer {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 .footer-logo {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .footer-text {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
