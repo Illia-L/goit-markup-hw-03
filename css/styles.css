@@ -1,0 +1,39 @@
+/* #region NORMALIZE */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body, h1, h2, h3, h4, p, ul, ol, li, header, main, footer, aside, nav, section, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Ensure no gaps for inline elements */
+a, span, button {
+    display: inline-block;
+}
+/* #endregion */
