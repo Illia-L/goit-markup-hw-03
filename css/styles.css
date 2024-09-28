@@ -1,9 +1,22 @@
+header, main, footer {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  margin: 0 auto;
+  max-width: 1440px;
   line-height: 1.5;
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   letter-spacing: 0.02em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 156px
 }
 
 ul {
@@ -20,7 +33,15 @@ button {
 }
 
 .nav {
+  display: flex;
+  gap: 76px;
+  align-items: center;
   color: #2e2f42;
+}
+
+.nav-items {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
@@ -49,6 +70,12 @@ button {
 
 .address {
   font-style: normal;
+}
+
+.address-items {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .address-link:hover,
