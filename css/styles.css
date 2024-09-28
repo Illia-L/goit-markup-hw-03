@@ -1,6 +1,18 @@
-header, main, footer {
+header, main, footer, h1, h2, h3, p, ul {
   margin: 0;
   padding: 0;
+}
+
+a {
+  display: inline-block;
+}
+
+img {
+  display: block;
+}
+
+button {
+  border: none;
 }
 
 body {
@@ -16,6 +28,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #E7E9FC;
   padding: 24px 156px
 }
 
@@ -83,12 +96,19 @@ button {
   color: #404bbf;
 }
 
+section {
+  padding: 120px 156px;
+}
+
 .hero {
+  padding-block: 188px;
+  text-align: center;
   color: #ffffff;
   background-color: #2e2f42;
 }
 
 .page-title {
+  margin-bottom: 48px;
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -97,6 +117,9 @@ button {
 }
 
 .hero-btn {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
@@ -111,6 +134,7 @@ button {
 }
 
 .section-title {
+  margin-bottom: 72px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   font-size: 36px;
@@ -123,6 +147,7 @@ button {
 }
 
 .section-subtitle {
+  margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-size: 20px;
@@ -131,29 +156,69 @@ button {
   color: #2e2f42;
 }
 
-/* .section-text {
-  letter-spacing: 0.02em;
-} */
+.advantages-items {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-item {
+  flex-basis: calc((100% - 24px * 3) / 4);
+}
 
 .team {
   background-color: #f4f4fd;
 }
 
-.team-title,
-.team-text {
+.persons {
+  display: flex;
+  gap: 24px;
+}
+
+.person-photo {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.person-name,
+.person-job {
   text-align: center;
+}
+
+.person-job {
+  margin-bottom: 32px;
 }
 
 .person {
   background-color: #ffffff;
 }
 
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.portfolio-text {
+  margin-bottom: 32px;
+}
+
 .footer {
+  padding: 100px 156px;
   background-color: #2e2f42;
 }
 
 .footer-logo {
-  color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer .logo-web {
@@ -161,5 +226,6 @@ button {
 }
 
 .footer-text {
+  width: 264px;
   color: #f4f4fd;
 }
