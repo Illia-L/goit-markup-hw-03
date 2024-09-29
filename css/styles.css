@@ -206,7 +206,6 @@ button {
 }
 
 .person-photo {
-  margin-bottom: 32px;
   width: 100%;
 }
 
@@ -232,7 +231,6 @@ button {
 
 .portfolio-img {
   width: 100%;
-  margin-bottom: 32px;
 }
 
 .portfolio-item-data {
@@ -246,11 +244,8 @@ button {
 }
 
 .footer {
-  background-color: #2e2f42;
-}
-
-.footer .container {
   padding: 100px 0;
+  background-color: #2e2f42;
 }
 
 .footer-logo {
